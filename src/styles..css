@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(111, 10, 179);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(37, 209, 129);
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(14, 161, 19);
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(8, 8, 8);
+    margin: 0;
+}
+
+header p {
+    color: #666;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(41, 54, 231);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(224, 224, 224);
+}
+
+footer {
+    background-color: rgb(167, 197, 255);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer form label,
+footer form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(12, 14, 107);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: rgb(197, 181, 36);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(111, 10, 179);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(37, 209, 129);
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(14, 161, 19);
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(8, 8, 8);
+    margin: 0;
+}
+
+header p {
+    color: #666;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(41, 54, 231);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(224, 224, 224);
+}
+
+footer {
+    background-color: rgb(167, 197, 255);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer form label,
+footer form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(12, 14, 107);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: rgb(197, 181, 36);
+}
